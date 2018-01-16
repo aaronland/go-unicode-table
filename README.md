@@ -23,6 +23,8 @@ This package builds a single binary application called `unicode-table` that laun
 
 And then visit `http://localhost:8080/`  in your web browser.
 
+### Updating things
+
 This package bundles the `www` directory from the [unicode-table](https://github.com/aaronland/unicode-table) repository. To fetch a fresh copy run the `static` target in the Makefile, like this:
 
 ```
@@ -39,7 +41,7 @@ mv tmp/unicode-table/www www
 rm -rf tmp
 ```
 
-If you need or want to make changes to the files in the `www` directory you will need to "re-bundle" them, like this:
+If you need or want to make changes to the files in the `www` directory you will need to "re-bundle" them by running the `bundle` target in the Makefile, like this:
 
 ```
 make bundle
