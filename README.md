@@ -1,6 +1,6 @@
 # go-unicode-table
 
-Experimental Go package to bundle the `unicode-table` website and an HTTP server in one handy binary file.
+Experimental Go package to bundle the [unicode-table](https://aaronland.github.io/unicode-table/) website and an HTTP server in one handy binary file.
 
 ## Install
 
@@ -14,7 +14,7 @@ All of this package's dependencies are bundled with the code in the `vendor` dir
 
 ## Usage
 
-This package builds a single binary application called `unicode-table` that launches a web server hosting the [unicode-table](https://github.com/aaronland/unicode-table) application. You can start the server like this:
+This package builds a single binary application called `unicode-table` that launches a web server hosting the [unicode-table](https://aaronland.github.io/unicode-table/) application. You can start the server like this:
 
 ```
 ./bin/unicode-table 
