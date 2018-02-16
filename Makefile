@@ -15,7 +15,7 @@ rmdeps:
 	if test -d src; then rm -rf src; fi 
 
 deps:
-	@GOPATH=$(GOPATH) go get -u "github.com/jteeuwen/go-bindata"
+	@GOPATH=$(GOPATH) go get -u "github.com/twitter/go-bindata"
 	@GOPATH=$(GOPATH) go get -u "github.com/elazarl/go-bindata-assetfs/"
 	rm -rf src/github.com/jteeuwen/go-bindata/testdata
 
